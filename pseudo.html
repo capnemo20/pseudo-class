@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+       
+        h1:hover{
+            color: aqua;
+            background-color: seagreen;
+            margin: 50px;
+            padding: 60px;
+            font-size: 80px;
+        }
+        .middle-person:focus{
+            color:blue;
+            font-weight: 700;
+        }
+        li:first-child{
+            color:chocolate;
+        }
+        li:last-child{
+            color:royalblue;
+            background-color: blueviolet;
+        }
+        li:nth-child(2n){
+            background-color: blue;
+        }
+        li:nth-child(2n+1){
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is normal</h1>
+    <input type="text" name="" id="">
+    <input class="middle-person" type="text" name="" id="">
+    <input type="text" name="" id="">
+    <br>
+    <ul>
+        <li>alia</li>
+        <li>talia</li>
+        <li>dalia</li>
+        <li>malia</li>
+        <li>balia</li>
+        <li>palia</li>
+    </ul>
+</body>
+</html>
